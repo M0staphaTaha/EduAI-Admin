@@ -317,7 +317,7 @@ const AddNewParent = () => {
               </label>
               <label
                 htmlFor="religion"
-                className="grid font-sans text-[18px] font-semibold"
+                className="hidden font-sans text-[18px] font-semibold"
               >
                 {currentLanguage === "en"
                   ? "Religion"

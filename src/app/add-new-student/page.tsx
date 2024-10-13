@@ -148,7 +148,8 @@ const AddNewStudent = () => {
     <>
       <BreadCrumbs breadcrumbs={breadcrumbs} />
       <div
-        className={` ${
+        dir={currentLanguage === "ar" ? "rtl" : "ltr"}
+        className={`${
           currentLanguage === "ar"
             ? booleanValue
               ? "lg:mr-[100px]"
@@ -320,7 +321,7 @@ const AddNewStudent = () => {
               {/* Religion */}
               <label
                 htmlFor="religion"
-                className="grid font-sans text-[18px] font-semibold"
+                className="hidden font-sans text-[18px] font-semibold"
               >
                 {currentLanguage === "en" ? "Religion" : "الدين"}
                 <select

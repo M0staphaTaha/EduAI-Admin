@@ -280,7 +280,7 @@ const AddNewWorker = () => {
               </label>
               <label
                 htmlFor="religion"
-                className="grid font-sans text-[18px] font-semibold"
+                className=" font-sans text-[18px] font-semibold"
               >
                 {currentLanguage === "en"
                   ? "Religion"

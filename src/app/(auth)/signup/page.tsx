@@ -566,7 +566,7 @@ const Signup = () => {
                   </label>
                   <label
                     htmlFor="religion"
-                    className="grid text-start font-sans text-[15px] font-semibold text-[#9a9a9a]"
+                    className="hidden text-start font-sans text-[15px] font-semibold text-[#9a9a9a]"
                   >
                     <select
                       defaultValue=""
